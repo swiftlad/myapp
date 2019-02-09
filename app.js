@@ -30,8 +30,14 @@ app.get('/', function(req, res) {
    }  
 });
 
-app.listen(3000, function() {
+var server = app.listen(3000, function() {
   console.log('Example app listening on port 3000!');
 });
 
+
+function stop() {
+   server.close();
+}
+
 module.exports = app;
+module.exports.stop = stop;
