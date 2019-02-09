@@ -1,5 +1,5 @@
 # myapp
-This a is node js app.
+This is a node js app.
 ```
 Instructions:
 
