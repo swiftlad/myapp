@@ -8,7 +8,7 @@ Instructions:
 (3) cd /app; npm install 
 (4) "node app.js" will run application with logging ON *** application will be listening on port 3000 ***
 (5) "NODE_ENV=production node app.js" to run application without logging
-(6) "./node_modules/.bin/mocha" will run test scripts under test/test.js
+(6) "npm test" will run test scripts under test/test.js
 
 
 ```
