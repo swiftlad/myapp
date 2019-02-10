@@ -9,6 +9,7 @@ var message2 = {message: "Good morning"};
 
 chai.use(chaiHttp);
 
+
 describe('[Test 01: Without accept headers]', function(done) {
  it('Should send hello world', function(done) {
    chai.request(server)
@@ -24,7 +25,7 @@ describe('[Test 01: Without accept headers]', function(done) {
  });
 }); 
 
-describe('[Test 01: Without accept headers]', function(done) {
+describe('[Test 02: With accept headers]', function(done) {
  it('Should send good monring in JSON', function(done) {
    chai.request(server)
   .get('/')
